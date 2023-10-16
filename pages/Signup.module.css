@@ -1,0 +1,90 @@
+/* Signup.module.css */
+.formContainer {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    background-color: #D9D9D9;
+    
+  
+  /*colour for background form*/
+    }
+
+.container{
+    height:10vh
+}
+
+.new{
+  height:10vh;
+}
+
+  
+  .formContainer h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .formContainer form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .formContainer input[type="text"],
+  .formContainer input[type="email"],
+  .formContainer input[type="password"],
+  .formContainer textarea,
+  .formContainer select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .formContainer textarea {
+    resize: vertical;
+  }
+  
+  .formContainer input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .selectContainer {
+    position: relative;
+  }
+  
+  .selectContainer select {
+    appearance: none;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .dropdownIcon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #777;
+  }
+
+/* Signup.module.css */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Make sure the wrapper takes up the full viewport height */
+}
+
+/* Your other styles for .container, .formContainer, .class, etc. */
+
+  

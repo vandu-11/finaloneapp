@@ -1,0 +1,121 @@
+/* Signup.module.css */
+/*code for  changing  the styles of form*/
+
+.headercontainer{
+  width: 200%;
+}
+.formContainer {
+  width:190%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  background-color: #D9D9D9;
+}
+
+.formContainer h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+
+.container {
+  height: 30vh;
+}
+.footercontainer{
+  height: 80vh;
+}
+
+.formContainer h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.formContainer form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.formContainer input[type="text"],
+.formContainer input[type="email"],
+.formContainer input[type="password"],
+.formContainer textarea,
+.formContainer select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.formContainer textarea {
+  resize: vertical;
+}
+
+.formContainer input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.selectContainer {
+  position: relative;
+}
+
+.selectContainer select {
+  appearance: none;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  width: 100%;
+}
+
+.dropdownIcon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: #777;
+}
+
+.ageContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1cm;
+}
+
+.inputContainer {
+  margin-right: 20px;
+}
+
+.inputgender{
+  margin-right: 200px;
+}
+
+.formContainer input[type="radio"] {
+  margin-right: 5px;
+}
+
+.custom-select option[data-tooltip]:hover::before {
+  content: attr(data-tooltip); /* Display the tooltip content */
+  position: absolute;
+  top: -25px; /* Adjust the top position as needed */
+  left: 0;
+  background-color: #333; /* Tooltip background color */
+  color: #fff; /* Tooltip text color */
+  padding: 5px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.footer{
+  
+  width:200%;
+  height: 10vh;
+}

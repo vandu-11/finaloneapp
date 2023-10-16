@@ -1,0 +1,206 @@
+/* ShoppingCarts.module.css */
+
+.header{
+  width: 150%;
+}
+.topBar {
+  display: flex;
+  align-items: center;
+  background-color: #007bff;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 18px;
+}/* ShoppingCarts.module.css */
+
+.header {
+  width: 100%; /* Change this back to 100% */
+}
+
+.topBar {
+  display: flex;
+  align-items: center;
+  background-color: #007bff;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 18px;
+  flex-wrap: wrap; /* Add this property to wrap content on smaller screens */
+}
+
+.iconContainer {
+  margin-right: 20px;
+  cursor: pointer;
+  flex: 1; /* Distribute the icons equally on smaller screens */
+}
+
+.iconContainer span {
+  font-size: 24px;
+}
+
+.searchBar input[type="text"] {
+  padding: 10px;
+  width: 100%; /* Make the search bar full width on smaller screens */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-top: 10px; /* Add some space below the search bar */
+}
+
+.productList {
+  padding: 20px;
+}
+
+.productItem {
+  display: flex;
+  flex-direction: column; /* Stack items vertically on smaller screens */
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.productImage {
+  flex: 1;
+}
+
+.productImage img {
+  max-width: 100%;
+  height: auto;
+}
+
+.productInfo {
+  flex: 2;
+  padding: 10px 20px; /* Add more space to the sides for smaller screens */
+  text-align: center; /* Center text on smaller screens */
+}
+
+.productInfo h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.productInfo p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.productRating span {
+  font-size: 14px;
+  color: #777;
+  text-align: center; /* Center text on smaller screens */
+}
+
+.productActions {
+  display: flex;
+  justify-content: center; /* Center buttons on smaller screens */
+  margin-top: 10px; /* Add space between items on smaller screens */
+}
+
+.cartButton {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+  flex: 1; /* Make the buttons take equal space on smaller screens */
+}
+
+.favoriteButton,
+.favoriteButtonActive {
+  background-color: transparent;
+  color: #ff6b6b;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.favoriteButtonActive {
+  color: #ff0000;
+}
+
+
+.iconContainer {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.iconContainer span {
+  font-size: 24px;
+}
+
+.searchBar input[type="text"] {
+  padding: 10px;
+  width: 210px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.productList {
+  padding: 20px;
+}
+
+.productItem {
+  display: flex;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.productImage {
+  flex: 1;
+}
+
+.productImage img {
+  max-width: 100%;
+  height: auto;
+}
+
+.productInfo {
+  flex: 2;
+  padding: 0 20px;
+}
+
+.productInfo h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.productInfo p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.productRating span {
+  font-size: 14px;
+  color: #777;
+}
+
+.productActions {
+  display: flex;
+  align-items: center;
+}
+
+.cartButton {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.favoriteButton,
+.favoriteButtonActive {
+  background-color: transparent;
+  color: #ff6b6b;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.favoriteButtonActive {
+  color: #ff0000;
+}

@@ -1,0 +1,50 @@
+/* components/CenteredMenu.module.css */
+
+.centeredMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    padding: 20px;
+    size-adjust: 90px;
+  
+    
+  }
+  
+  .menuList {
+    list-style: none;
+    padding: 0;
+    
+  }
+  
+  .menuList li {
+    margin: 10px 0;
+    color: #000;
+  }
+  
+  
+  
+  /* Increase font size for menu labels */
+  .menuList li label {
+    font-size: 18px;
+    color: #050101; /* Adjust the font size as needed */
+  }
+  
+  
+ 
+  
+  .menuList li input[type="radio"] {
+    width: 10px; /* Adjust the width as needed */
+    height: 10px; /* Adjust the height as needed */
+  }
+
+
+  .footer{
+    height: 190px;
+  }
+  
+  
+  
+  
+  

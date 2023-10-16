@@ -1,0 +1,54 @@
+/* Header.module.css */
+
+/* Common styles for both mobile and desktop */
+.container {
+  display: flex;
+  flex-direction: row; /* Change flex-direction to 'row' for both mobile and desktop */
+  justify-content: space-between; /* Add justify-content property to create space between logo and school name */
+  align-items: center;
+  padding: 20px;
+  background-image: url('/updated.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px; /* Add margin to separate logo from school name */
+}
+
+.schoolInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.schoolName {
+  font-size: 18px;
+  font-weight: bold;
+  color: #0b0a0a;
+  margin-bottom: 5px;
+}
+
+.address {
+  font-size: 12px;
+  color: #0c0b0b;
+  margin-bottom: 10px;
+}
+
+/* Styles for desktop mode */
+@media (min-width: 768px) {
+  .logo {
+    width: 120px;
+    height: 120px;
+    margin-right: 20px; /* Adjust margin for desktop view */
+  }
+
+  .schoolName {
+    font-size: 24px;
+  }
+}

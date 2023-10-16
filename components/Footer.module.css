@@ -1,0 +1,45 @@
+/* Footer styles */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%; /* Make sure the wrapper takes up at least the full viewport height */
+}
+
+.content {
+  flex: 1; /* Allow the content to grow and push the footer to the bottom */
+}
+
+.footer {
+  background-color: hsl(0, 36%, 95%);
+  color: #170303bb;
+  padding: 10px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.3;
+  letter-spacing: 0.1rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/* Style for the email and contact number */
+.footer p {
+  margin: 5px 0;
+}
+
+/* Style for links in the footer (if needed) */
+.footer a {
+  color: #0a0202c5;
+  text-decoration: none;
+  margin: 0 50px;
+}
+
+/*style for displaying the footer in the center */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
